@@ -1,0 +1,75 @@
+html{
+    background: rgb(0,212,255);
+    background: radial-gradient(circle, rgba(9, 9, 185, 0.6) 0%, rgba(16, 11, 118, 0.886) 34%, rgb(0, 0, 0) 100%), url(img/pap3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: sans-serif;
+}
+div{
+    /* border: 10px dashed green; */
+}
+.bod{
+    display: flex;
+}
+
+.pic{
+    /* border: 0px solid black; */
+    display: flex;
+    margin: 5%;
+    border-radius: 50px;
+}
+
+.banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.about{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    /* border: 10px solid black; */
+}
+
+.james{
+    font-size: 50px;
+    /* margin-right: 15%; */
+    text-decoration: none;
+    color: beige;
+    display: inline;
+    text-decoration: solid;
+    padding-top: 27px;
+    padding-right: 7%;
+    text-align: center;
+}
+
+.about p{
+    font-size: 30px;
+    flex-grow: 6;
+}
+
+.link{
+
+}
+
+.one{
+    text-decoration: none;
+    font-size: 50px;
+    display: inline;
+    color: beige;
+}
+
+.bio{
+    display: flex;
+
+}
+
+.bio p{
+    display: inline block;
+    font-size: 23px;
+    margin-right: 5%;
+    margin-top: 6%;
+    text-align: center;
+}
