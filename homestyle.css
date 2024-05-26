@@ -16,10 +16,12 @@ div{
 
 .dropdown {
   position: relative;
+  /* margin-top: 25px; */
   display: inline-block;
+  padding-right: 25px;
 }
 
-/* .dd-content {
+.dd-content {
   display: none;
   position: absolute;
   background-color: #1d0061;
@@ -30,9 +32,18 @@ div{
   right: 0;
 }
 
+div .dd-content{
+    font-size: 1.5em;
+}
+
+div span{
+    font-size: 1.5em;
+    margin-right: 5%;
+}
+
 .dropdown:hover .dd-content {
     display: block;
-  } */
+  }
 
 .pic{
     /* border: 0px solid black; */
@@ -44,7 +55,8 @@ div{
 .banner{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: right;
+    align-items: center;
 }
 .about{
     color: aliceblue;
@@ -64,6 +76,9 @@ div{
     padding-right: 7%;
     text-align: center;
     text-shadow: 0px 0px 18px black;
+    margin: 0 auto;
+    position: relative;
+    left: 4%;
 }
 
 .about p{
