@@ -1,0 +1,139 @@
+html{
+    font-family: arial;
+    color: rgb(0, 0, 0);
+}
+
+body{
+    /* background-image: linear-gradient(
+        to bottom,
+        rgba(76, 0, 255, 0.578),
+        rgba(0, 0, 0, 0.716)
+    ), url(img/BG2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover; */
+    background-color: rgb(216, 241, 217);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown {
+    position: relative;
+    /* margin-top: 25px; */
+    display: inline-block;
+  }
+  
+  .dd-content {
+    display: none;
+    position: absolute;
+    background-color: #1d0061;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(55, 255, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    right: 0;
+  }
+  
+  div .dd-content{
+      font-size: 1.5em;
+  }
+  
+  div span{
+      font-size: 1.5em;
+  }
+  
+  .dropdown:hover .dd-content {
+      display: block;
+    }
+  
+/* Header */
+.head{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(118, 110, 0);
+    width: 100%;
+    height: 11%;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+.title{
+    text-decoration: none;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: black;
+    /* background-color: blueviolet; */
+    padding: 3px auto;
+    margin: 0 auto;
+    /* flex-grow: 2; */
+}
+
+.subtitle{
+    /* flex-grow: 2; */
+    /* background-color: chartreuse; */
+    text-align: center;
+    font-size: 1.5em;
+    padding-bottom: 3px;
+}
+
+.title:hover{
+    color: rgb(0, 0, 185);
+    text-shadow: 3em;
+    text-shadow: 0px 0px 10px black;
+}
+
+/* Foreword */
+
+.foreword{
+    /* background-color: blue; */
+    background-image: url(img/pip2x.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    position: static;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.foreword h1{
+    color: rgb(26, 255, 0);
+    max-width: 80%;
+    text-align: center;
+    position: relative;
+    top: 6%;
+    bottom: 8%;
+
+}
+
+/* Why I'm interested */
+
+.q1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.q1 h1{
+    text-align: center;
+    color: blue;
+    max-width: 80%;
+}
+
+.q1 p{
+    text-align: center;
+    color: blue;
+    max-width: 80%;
+}
