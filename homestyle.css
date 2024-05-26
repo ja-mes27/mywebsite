@@ -14,7 +14,7 @@ div{
     display: flex;
 }
 
-.dropdown {
+.dd {
   position: relative;
   /* margin-top: 25px; */
   display: inline-block;
